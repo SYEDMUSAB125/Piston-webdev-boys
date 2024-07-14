@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+    <style>
+        div{
+            border: 2px solid #000000;
+            height: 1800px;
+            width: 70vw;
+            margin: auto;
+            /* float:; */
+            /* overflow: hidden; */
+            /* overflow-y:auto ; */
+            position: relative;
+        }
+        .box{
+            width: 60vw ;
+            height: 20vh ;
+            margin: 6px;
+           
+        }
+        /* .box{
+            position: absolute;
+        } */
+        .box1{
+            background-color: rgb(248, 142, 3);
+            /* position: absolute; */
+            /* left: 18px;
+            top: 42px; */
+            width: 42px;
+            height: 42px;
+            position: fixed;
+            /* filter , perspective:  ; */
+            /* filter: invert(); */
+            right: 45px;
+            bottom: 100px;
+           
+            /* relative,absolute */
+        }
+        .box2{
+            background-color: rgb(130, 248, 3);
+            /* position: relative; */
+            /* z-index: 1; */
+            /* position: absolute; */
+            /* top: 20px;
+          left: 30px;  */
+        }
+        .box3{
+            background-color: rgb(243, 20, 20);
+        }
+        .box4{
+            background-color: rgb(3, 23, 248);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box box1"></div>
+        <div class="box box2 "></div>
+        <div class="box box3 "></div>
+        <div class="box box4 "></div>
+    </div>
+</body>
+</html>

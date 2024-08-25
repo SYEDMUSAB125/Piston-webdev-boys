@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic animation</title>
+    <style>
+        .box{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            animation: movingbox 4s 5s 3 ease-in;
+        }
+        @keyframes movingbox  {
+            0%{
+                left: 0px;
+            }
+            25%{
+             left:150px
+            }
+            75%{
+              top:80px
+            }
+            100%{
+                left: 0px;
+                top: 80px ;
+            }
+        }
+
+
+
+
+
+
+
+      /* div {
+        height: 20px;
+        width: 10px;
+        background-color: rgb(44, 89, 222); */
+        /* animation-name: progressbar;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-iteration-count: 3;
+        animation-direction: forwards;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: both ; */
+        /* animation: progressbar 5s 1s 3 cubic-bezier(0.59,-0.56, 0.28, 1.06); */
+        /* animation: progress 4s 5s infinite ease-out; */
+      /* } */
+      /* from to  0% 25% 75 100% */
+      /* @keyframes progress {
+        from {
+          width: 10vw;
+        }
+        to {
+          width: 80vw;
+        }
+      } */
+
+
+
+      /* animation */
+      /* animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode */
+    </style>
+  </head>
+  <body>
+    <!-- <h1>progress Bar</h1>
+    <div></div> -->
+    <div class="box"></div>
+  </body>
+</html>

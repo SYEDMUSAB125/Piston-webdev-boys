@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        /* variable in css
+         */
+        :root{
+            --primary-color:#c0572e;
+            --secondary-color:#ff88aa;
+        }
+        .box{
+            width: 200px ;
+            height: 200px;
+            background-color: var(--primary-color) ;
+           text-align: center;
+           font-size: 30px;
+          
+
+    
+            
+
+        }
+        .container{
+            width: 100vw;
+           height: 500px;
+           background-color: var(--secondary-color); 
+           display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover{
+            transform: scale(3);
+            background-color: antiquewhite;
+            /* transition: property name duration timing funvtion */
+            transition: all 2s cubic-bezier(0, 0, 0.76, 0.03);
+            /* 1turn = 360 deg  */
+            /* transform: rotate(45deg);
+             */
+           
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>

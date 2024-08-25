@@ -1,0 +1,17 @@
+Here are 5 beginner-level assignments related to JavaScript functions:
+
+1. **Simple Addition Function:**
+   Write a function called `addNumbers` that takes two numbers as arguments and returns their sum. Test the function by calling it with different pairs of numbers.
+
+2. **Greeting Function:**
+   Create a function called `greetUser` that takes a name as a parameter and returns a greeting message like "Hello, [name]!".
+
+5. **Convert Celsius to Fahrenheit:**
+   Write a function called `convertToFahrenheit` that takes a temperature in Celsius and returns the equivalent temperature in Fahrenheit using the formula `F = C * 9/5 + 32`. 
+3. **Check Even or Odd:**
+   Write a function called `isEven` that takes a number as an argument and returns `true` if the number is even and `false` if it is odd.
+4. **Calculate Factorial:**
+   Write a function called `factorial` that takes a positive integer as an argument and returns its factorial. (e.g., `factorial(5)` should return `120`).
+
+
+These assignments are designed to help understand the basics of functions in JavaScript.

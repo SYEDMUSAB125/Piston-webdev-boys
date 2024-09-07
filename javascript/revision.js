@@ -55,16 +55,16 @@
 //     console.log(cities[i])
 // } 
 
-const obj = {
- name : "Musab",
- age: " 34",
- height : "5.4 "
+// const obj = {
+//  name : "Musab",
+//  age: " 34",
+//  height : "5.4 "
 
-}
+// }
 // for in loop  obj
-for(const key in obj ){
-    console.log(obj[key])
-}
+// for(const key in obj ){
+//     console.log(obj[key])
+// }
 
 
 // destructure

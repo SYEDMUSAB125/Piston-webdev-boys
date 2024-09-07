@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        /* .para{
+            background-color: salmon;
+            color: aliceblue;
+            border: 2px solid black;
+            border-radius: 10px ;
+        }
+        .aquib{
+            text-shadow: 2px 3px 4px white; */
+        /* } */
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 200px;
+        }
+        .div{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            animation: grow 3s ease-in-out  1s  infinite ;
+        }
+        @keyframes grow {
+            to{
+                transform: scale(1);
+            }
+            from{
+                transform: scale(0);
+            }
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    Purcahse Now
+</div>
+<button id="btn" >add to cart</button>
+
+    <script src="../javascript/dom.js"></script>
+</body>
+</html>

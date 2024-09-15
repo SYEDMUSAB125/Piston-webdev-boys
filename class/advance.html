@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .danger{
+        color: red;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        font-size: 50px;
+        animation: blink  0.5s ease-in-out 0.5s infinite
+
+    }
+    @keyframes blink {
+        to{
+            opacity: 1;
+        } 
+        from{
+             opacity: 0.4 ;
+        }
+    }
+    .size{
+        font-size: 50px;
+    }
+</style>
+<body>
+    <div id="safeTimer">
+        <h2>Safe Timer</h2>
+        <p class="size"  id="safeTimerDisplay">00:30</p>
+        </div>
+    <script src="../javascript/advance2.js"></script>
+</body>
+</html>
